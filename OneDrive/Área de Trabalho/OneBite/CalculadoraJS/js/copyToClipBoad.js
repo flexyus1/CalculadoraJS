@@ -1,3 +1,5 @@
+//Essa função faz com que o resultado seja copiado
+
 export default function (ev) {
   const button = ev.currentTarget
   if (button.innerText === 'Copy') {
